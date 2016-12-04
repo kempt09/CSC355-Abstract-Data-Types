@@ -1,0 +1,21 @@
+PG 295
+
+11)
+
+mergeLists(list_one, list_two, list_three){
+    if list_one[list_one.size() - 1] == NULL && list_two[list_two.size() - 1] == NULL
+        return list_three;
+    end
+
+    if list_one[list_one.size() - 1] < list_two[list_two.size() - 1]
+        element = [list_one.size() - 1]
+        list_three.push(element)
+    end
+
+    if list_one[list_one.size() - 1] > list_two[list_two.size() - 1]
+        element = list_two[list_two.size() - 1]
+        list_three.push(element)
+    end
+
+    return this.mergeLists(list_one, list_two, list_three);
+}
