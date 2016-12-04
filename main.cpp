@@ -1,10 +1,11 @@
 #include <iostream>
 #include <string>
-#include "linkedlist/linkedList.h"
-#include "linkedqueue/LinkedQueue.h"
-#include "linkedstack/LinkedStack.h"
-#include "queue/queue.h"
-#include "stack/Stack.h"
+#include "linked/linkedlist/linkedList.h"
+#include "linked/linkedqueue/LinkedQueue.h"
+#include "linked/linkedstack/LinkedStack.h"
+#include "dynamic/queue/queue.h"
+#include "dynamic/stack/Stack.h"
+#include "dynamic/list/List.h"
 #include "templates/list/TemplateList.h"
 #include "templates/queue/TemplateQueue.h"
 #include "templates/stack/TemplateStack.h"
